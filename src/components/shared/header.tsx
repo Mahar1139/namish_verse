@@ -57,7 +57,7 @@ export function SiteHeader() {
         </div>
         
         <Link href="/" className="flex-1 text-center md:flex-none md:text-left">
-          <span className="font-bold font-headline">Namish Verse</span>
+          <span className="font-bold font-headline pl-4">Namish Verse</span>
         </Link>
 
         {/* Desktop Navigation */}
