@@ -1,7 +1,6 @@
 
-import { Button } from '@/components/ui/button';
 import { INSTAGRAM_PROFILE, CREATOR_PROFILE } from '@/lib/constants';
-import { Heart, Instagram } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import Link from 'next/link';
 
 export function SiteFooter() {
@@ -17,18 +16,16 @@ export function SiteFooter() {
               rel="noreferrer"
               className="font-medium underline underline-offset-4 hover:text-primary"
             >
-              Namish Gohil
+              Nammu
             </Link>
-            .
-          </p>
-          <p>
+            . Created with <Heart className="inline h-4 w-4" /> by{' '}
             <Link
               href={CREATOR_PROFILE}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4 hover:text-primary"
             >
-              Created with <Heart className="inline h-4 w-4" /> by Ashish.
+              Ashish.
             </Link>
           </p>
         </div>
