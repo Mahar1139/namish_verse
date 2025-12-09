@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export function SiteFooter() {
   return (
-    <footer className="w-full border-t border-border/40 bg-background/95">
-      <div className="container flex items-center justify-center py-10 md:h-24 md:py-0">
-        <div className="text-center text-sm leading-loose text-muted-foreground">
+    <footer className="sticky bottom-0 w-full border-t border-border/40 bg-background/95">
+      <div className="container flex items-center justify-center py-4 md:h-16 md:py-0">
+        <div className="text-center text-sm text-muted-foreground">
           <p>
             A special gift for{' '}
             <Link
