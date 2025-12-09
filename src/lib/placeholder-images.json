@@ -77,6 +77,12 @@
       "description": "Namish Gohil performing",
       "imageUrl": "https://images.unsplash.com/photo-1673772414087-a9140630963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYW5jZXIlMjBwb3Npbmd8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dancer posing"
+    },
+    {
+      "id": "home_hero",
+      "description": "Portrait of Namish Gohil",
+      "imageUrl": "https://images.unsplash.com/photo-1594744806629-9a5a3b411958?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwZGFuY2VyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male dancer"
     }
   ]
 }
