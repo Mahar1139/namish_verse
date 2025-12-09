@@ -18,7 +18,7 @@ const fontInter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Namish's Nebula - A Dancer's Universe",
+  title: "Namish Verse - A Dancer's Universe",
   description: 'A special gift website celebrating Namish Gohil, his dance journey, his fanpages, and his impact.',
 };
 

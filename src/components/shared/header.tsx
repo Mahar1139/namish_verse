@@ -18,7 +18,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <span className="font-bold font-headline">Namish's Nebula</span>
+          <span className="font-bold font-headline">Namish Verse</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -50,7 +50,7 @@ export function SiteHeader() {
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">
                    <Link href="/" className="mr-6 flex items-center space-x-2" onClick={() => setMobileMenuOpen(false)}>
-                      <span className="font-bold font-headline">Namish's Nebula</span>
+                      <span className="font-bold font-headline">Namish Verse</span>
                     </Link>
                   <SheetTrigger asChild>
                      <Button variant="ghost" size="icon">

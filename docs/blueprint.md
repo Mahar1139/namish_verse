@@ -1,4 +1,4 @@
-# **App Name**: Namish's Nebula
+# **App Name**: Namish Verse
 
 ## Core Features:
 
