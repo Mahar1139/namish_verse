@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils';
 import { SiteHeader } from '@/components/shared/header';
 import { SiteFooter } from '@/components/shared/footer';
 import { Toaster } from "@/components/ui/toaster";
+import { BottomNav } from '@/components/shared/bottom-nav';
 
 const fontPoppins = Poppins({
   subsets: ['latin'],
@@ -38,7 +39,8 @@ export default function RootLayout({
       >
         <div className="relative flex min-h-dvh flex-col">
           <SiteHeader />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pb-20 md:pb-0">{children}</main>
+          <BottomNav />
           <SiteFooter />
         </div>
         <Toaster />

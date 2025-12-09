@@ -1,13 +1,14 @@
 
 import { PlaceHolderImages } from './placeholder-images';
+import { Home, Info, Users, Video, Mail, Gift } from 'lucide-react';
 
 export const NAV_LINKS = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/fanpages', label: 'Fanpages' },
-  { href: '/reels', label: 'Reels' },
-  { href: '/contact', label: 'Contact' },
-  { href: '/gift', label: 'A Gift' },
+  { href: '/', label: 'Home', icon: Home },
+  { href: '/about', label: 'About', icon: Info },
+  { href: '/fanpages', label: 'Fanpages', icon: Users },
+  { href: '/reels', label: 'Reels', icon: Video },
+  { href: '/contact', label: 'Contact', icon: Mail },
+  { href: '/gift', label: 'A Gift', icon: Gift },
 ];
 
 export const INSTAGRAM_PROFILE = 'https://www.instagram.com/iamnamish17';
