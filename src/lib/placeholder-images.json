@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "fan_avatar_1",
+      "description": "Fanpage 1 Avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1654110455429-cf322b40a906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHx8fDE3NjUxOTIxNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile picture"
+    },
+    {
+      "id": "fan_reel_1_1",
+      "description": "Fanpage 1 Reel 1",
+      "imageUrl": "https://images.unsplash.com/photo-1741376478019-0141e4c173e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYW5jZSUyMHJlZWx8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dance reel"
+    },
+    {
+      "id": "fan_reel_1_2",
+      "description": "Fanpage 1 Reel 2",
+      "imageUrl": "https://images.unsplash.com/photo-1718908721930-31120bc1beb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYW5jZSUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc2NTIzNTMxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dance performance"
+    },
+    {
+      "id": "fan_reel_1_3",
+      "description": "Fanpage 1 Reel 3",
+      "imageUrl": "https://images.unsplash.com/photo-1629219222101-4e1c6d312742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaG9yZW9ncmFwaHklMjB2aWRlb3xlbnwwfHx8fDE3NjUyNjQ4NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "choreography video"
+    },
+    {
+      "id": "fan_avatar_2",
+      "description": "Fanpage 2 Avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1665289420974-1168352d4848?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdXBwb3J0ZXIlMjBwcm9maWxlfGVufDB8fHx8MTc2NTI2NDg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "supporter profile"
+    },
+    {
+      "id": "fan_reel_2_1",
+      "description": "Fanpage 2 Reel 1",
+      "imageUrl": "https://images.unsplash.com/photo-1705854863470-85281c315237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW4lMjBlZGl0fGVufDB8fHx8MTc2NTI2NDg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fan edit"
+    },
+    {
+      "id": "fan_reel_2_2",
+      "description": "Fanpage 2 Reel 2",
+      "imageUrl": "https://images.unsplash.com/photo-1701992895512-6ebe94e92a89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYW5jZSUyMHRyaWJ1dGV8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dance tribute"
+    },
+    {
+      "id": "fan_reel_2_3",
+      "description": "Fanpage 2 Reel 3",
+      "imageUrl": "https://images.unsplash.com/photo-1711157655217-ce587f36f751?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJmb3JtYW5jZSUyMGNsaXB8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "performance clip"
+    },
+    {
+      "id": "fan_avatar_3",
+      "description": "Fanpage 3 Avatar",
+      "imageUrl": "https://picsum.photos/seed/fan3/200/200",
+      "imageHint": "fan account"
+    },
+    {
+      "id": "fan_reel_3_1",
+      "description": "Fanpage 3 Reel 1",
+      "imageUrl": "https://images.unsplash.com/photo-1673557143492-fcc23d1d3c9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYW5jZSUyMHZpZGVvfGVufDB8fHx8MTc2NTI2NDg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dance video"
+    },
+    {
+      "id": "fan_reel_3_2",
+      "description": "Fanpage 3 Reel 2",
+      "imageUrl": "https://images.unsplash.com/photo-1526631880652-71a048b9b492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaG9yZW9ncmFwaHl8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "choreography"
+    },
+    {
+      "id": "fan_reel_3_3",
+      "description": "Fanpage 3 Reel 3",
+      "imageUrl": "https://images.unsplash.com/photo-1762805026672-7fca71270a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYW4lMjB0cmlidXRlfGVufDB8fHx8MTc2NTI2NDg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fan tribute"
+    },
+    {
+      "id": "about_image",
+      "description": "Namish Gohil performing",
+      "imageUrl": "https://images.unsplash.com/photo-1673772414087-a9140630963f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYW5jZXIlMjBwb3Npbmd8ZW58MHx8fHwxNzY1MjY0ODU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dancer posing"
+    }
+  ]
 }
