@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-[calc(100dvh-4rem)] w-full overflow-hidden">
       <div className="absolute inset-0 bg-light-motion z-0"></div>
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
         <div className="animate-subtle-float">
