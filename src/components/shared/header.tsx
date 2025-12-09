@@ -56,7 +56,7 @@ export function SiteHeader() {
           </Sheet>
         </div>
         
-        <Link href="/" className="flex items-center space-x-2 md:mr-auto md:ml-4">
+        <Link href="/" className="flex-1 text-center md:flex-none md:text-left">
           <span className="font-bold font-headline">Namish Verse</span>
         </Link>
 
@@ -78,8 +78,8 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        {/* This div is to balance the flexbox on desktop when the menu is not shown */}
-        <div className="hidden md:block w-10"></div>
+        {/* This div is to balance the flexbox on mobile */}
+        <div className="w-10 md:hidden"></div>
       </div>
     </header>
   );
