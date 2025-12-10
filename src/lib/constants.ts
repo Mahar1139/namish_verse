@@ -52,7 +52,7 @@ export const FANPAGES_DATA = [
 export const REELS_DATA = [
   { 
     id: 1, 
-    embedCode: `<iframe src="https://www.instagram.com/reel/C8_X5c3S5De/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`
+    embedCode: `<iframe src="https://www.instagram.com/p/DPftocNjxcu/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`
   },
   { 
     id: 2, 
