@@ -50,14 +50,28 @@ export const FANPAGES_DATA = [
 ];
 
 export const REELS_DATA = [
-  // Instagram embed URLs would go here. Using placeholders for now.
-  { id: 1, placeholder: 'Reel 1 Embed' },
-  { id: 2, placeholder: 'Reel 2 Embed' },
-  { id: 3, placeholder: 'Reel 3 Embed' },
-  { id: 4, placeholder: 'Reel 4 Embed' },
-  { id: 5, placeholder: 'Reel 5 Embed' },
-  { id: 6, placeholder: 'Reel 6 Embed' },
-  { id: 7, placeholder: 'Reel 7 Embed' },
-  { id: 8, placeholder: 'Reel 8 Embed' },
-  { id: 9, placeholder: 'Reel 9 Embed' },
+  { 
+    id: 1, 
+    embedCode: `<iframe src="https://www.instagram.com/reel/C8_X5c3S5De/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`
+  },
+  { 
+    id: 2, 
+    embedCode: `<iframe src="https://www.instagram.com/reel/C2s19QYy4aF/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>`
+  },
+  { 
+    id: 3, 
+    placeholder: 'Reel 3 Embed - Replace with your embed code' 
+  },
+  { 
+    id: 4, 
+    placeholder: 'Reel 4 Embed - Replace with your embed code' 
+  },
+  { 
+    id: 5, 
+    placeholder: 'Reel 5 Embed - Replace with your embed code'
+  },
+  { 
+    id: 6, 
+    placeholder: 'Reel 6 Embed - Replace with your embed code'
+  },
 ];
