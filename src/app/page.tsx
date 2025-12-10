@@ -37,7 +37,7 @@ export default function Home() {
             size="lg"
             className="group rounded-full bg-primary/10 text-primary-foreground transition-all duration-300 hover:bg-primary/20 hover:shadow-[0_0_20px_theme(colors.primary/0.5)]"
           >
-            Explore My World
+            Explore His World
             <MoveRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
           </Button>
         </Link>
