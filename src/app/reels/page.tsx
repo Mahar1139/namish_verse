@@ -3,8 +3,24 @@
 import { REELS_DATA } from '@/lib/constants';
 import { Card, CardContent } from '@/components/ui/card';
 import { Instagram, Video } from 'lucide-react';
+import { useEffect } from 'react';
 
 export default function ReelsPage() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "//www.instagram.com/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Find and remove the script when the component unmounts
+      const existingScript = document.querySelector('script[src="//www.instagram.com/embed.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
+
   return (
     <div className="container max-w-6xl py-12 md:py-20 animate-pop-in">
       <header className="text-center mb-12">
@@ -15,12 +31,12 @@ export default function ReelsPage() {
       </header>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {REELS_DATA.map((reel) => (
+        {REELS_DATA.map((reel: { id: number, embedCode?: string, placeholder?: string }) => (
           <Card key={reel.id} className="overflow-hidden group border-border/50 hover:border-primary/50 transition-all duration-300 aspect-[9/16]">
             <CardContent className="p-0 h-full">
               {reel.embedCode ? (
                 <div 
-                  className="w-full h-full [&>iframe]:w-full [&>iframe]:h-full scale-105" 
+                  className="w-full h-full [&>blockquote]:h-full [&>blockquote]:w-full" 
                   dangerouslySetInnerHTML={{ __html: reel.embedCode }} 
                 />
               ) : (
