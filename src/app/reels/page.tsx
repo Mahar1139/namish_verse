@@ -16,11 +16,11 @@ export default function ReelsPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {REELS_DATA.map((reel) => (
-          <Card key={reel.id} className="overflow-hidden group border-border/50 hover:border-primary/50 transition-all duration-300 aspect-w-9 aspect-h-16">
-            <CardContent className="p-0">
+          <Card key={reel.id} className="overflow-hidden group border-border/50 hover:border-primary/50 transition-all duration-300 aspect-[9/16]">
+            <CardContent className="p-0 h-full">
               {reel.embedCode ? (
                 <div 
-                  className="w-full h-full [&>iframe]:w-full [&>iframe]:h-full" 
+                  className="w-full h-full [&>iframe]:w-full [&>iframe]:h-full scale-105" 
                   dangerouslySetInnerHTML={{ __html: reel.embedCode }} 
                 />
               ) : (
