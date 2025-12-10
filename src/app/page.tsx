@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Home() {
   const homeHeroImage = PlaceHolderImages.find(img => img.id === 'home_hero');
   return (
-    <section className="relative h-[calc(100vh-8rem)] w-full overflow-hidden">
+    <section className="relative h-dvh w-full overflow-hidden">
       <div className="absolute inset-0 bg-light-motion z-0"></div>
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
         
@@ -37,7 +37,7 @@ export default function Home() {
             size="lg"
             className="group rounded-full bg-primary/10 text-primary-foreground transition-all duration-300 hover:bg-primary/20 hover:shadow-[0_0_20px_theme(colors.primary/0.5)]"
           >
-            Explore His World
+            Explore My World
             <MoveRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
           </Button>
         </Link>
