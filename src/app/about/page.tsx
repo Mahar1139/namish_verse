@@ -20,7 +20,7 @@ export default function AboutPage() {
         <p className="mt-4 text-lg text-muted-foreground">His Journey, His Passion</p>
       </header>
       
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid md:grid-cols-2 gap-12 items-center px-4 md:px-0">
         <div className="space-y-6 text-lg text-foreground/90">
           <p>
             Namish Gohil isn't just a dancer; he is a storyteller who uses movement to paint vivid emotional landscapes. From a young age, his life has been a rhythm, a continuous flow of passion and dedication to the art of dance.
