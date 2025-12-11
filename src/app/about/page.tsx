@@ -6,9 +6,9 @@ import Image from 'next/image';
 export default function AboutPage() {
   const aboutImage = PlaceHolderImages.find(img => img.id === 'about_image');
   const achievements = [
-    'Winner of "Dance India Dance" Season X',
-    'Choreographed for international music videos',
-    'Featured in "Vogue" magazine for dance artistry',
+    'Top 6 at Super dancer season 5',
+    '226k + insta family',
+    '23k+ youtube family',
   ];
 
   return (
@@ -52,7 +52,7 @@ export default function AboutPage() {
             <div key={index} className="bg-card p-6 rounded-lg border border-transparent hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1">
               <div className="flex items-start">
                 <CheckCircle className="h-6 w-6 text-primary mr-4 mt-1 shrink-0" />
-                <p className="font-medium text-foreground/90">{item} (placeholder)</p>
+                <p className="font-medium text-foreground/90">{item}</p>
               </div>
             </div>
           ))}
