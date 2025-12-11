@@ -1,0 +1,33 @@
+
+[
+  {
+    "username": "@namish.fp",
+    "profilePic": "https://picsum.photos/seed/fan_avatar_1/200/200",
+    "profileLink": "https://www.instagram.com/namish.fp?igsh=ZGx1b2Y2c2ptMzF4",
+    "reels": [
+      "https://www.instagram.com/p/C8yZaYgSg88/embed",
+      "https://www.instagram.com/p/C8u87EwSWRp/embed",
+      "https://www.instagram.com/p/C8o7O7cyA3J/embed"
+    ]
+  },
+  {
+    "username": "@gohil_namish_fp",
+    "profilePic": "https://picsum.photos/seed/fan_avatar_2/200/200",
+    "profileLink": "https://instagram.com/gohil_namish_fp",
+    "reels": [
+      "https://www.instagram.com/p/C8u87EwSWRp/embed",
+      "https://www.instagram.com/p/C8o7O7cyA3J/embed",
+      "https://www.instagram.com/p/C8yZaYgSg88/embed"
+    ]
+  },
+  {
+    "username": "@namish.universe",
+    "profilePic": "https://picsum.photos/seed/fan_avatar_3/200/200",
+    "profileLink": "https://instagram.com/namish.universe",
+    "reels": [
+      "https://www.instagram.com/p/C8o7O7cyA3J/embed",
+      "https://www.instagram.com/p/C8yZaYgSg88/embed",
+      "https://www.instagram.com/p/C8u87EwSWRp/embed"
+    ]
+  }
+]
