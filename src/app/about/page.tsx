@@ -7,8 +7,8 @@ export default function AboutPage() {
   const aboutImage = PlaceHolderImages.find(img => img.id === 'about_image');
   const achievements = [
     'Top 6 at Super dancer season 5',
-    '226k + insta family',
-    '23k+ youtube family',
+    '226K+ + instagram family',
+    'Core member of Janam Studio',
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function AboutPage() {
       </header>
       
       <div className="grid md:grid-cols-2 gap-12 items-center px-4 md:px-0">
-        <div className="space-y-6 text-lg text-foreground/90">
+        <div className="space-y-6 text-lg text-foreground/90 pl-4">
           <p>
             Namish Gohil isn't just a dancer; he is a storyteller who uses movement to paint vivid emotional landscapes. From a young age, his life has been a rhythm, a continuous flow of passion and dedication to the art of dance.
           </p>
