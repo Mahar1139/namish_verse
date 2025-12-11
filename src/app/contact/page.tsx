@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { INSTAGRAM_PROFILE, CREATOR_PROFILE } from '@/lib/constants';
@@ -45,3 +46,5 @@ export default function ContactPage() {
     </div>
   );
 }
+
+    

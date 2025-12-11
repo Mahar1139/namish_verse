@@ -7,8 +7,8 @@ export default function AboutPage() {
   const aboutImage = PlaceHolderImages.find(img => img.id === 'about_image');
   const achievements = [
     'Top 6 at Super dancer season 5',
-    '226K+ + instagram family',
-    'Core member of Janam Studio',
+    '226K+ instagram family',
+    '23K+ youtube family',
   ];
 
   return (
@@ -61,3 +61,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+    
