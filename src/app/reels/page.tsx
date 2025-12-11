@@ -15,8 +15,8 @@ export default function ReelsPage() {
     return () => {
       // Find and remove the script when the component unmounts
       const existingScript = document.querySelector('script[src="//www.instagram.com/embed.js"]');
-      if (existingScript) {
-        document.body.removeChild(existingScript);
+      if (existingScript && existingScript.parentNode) {
+        existingScript.parentNode.removeChild(existingScript);
       }
     };
   }, []);
