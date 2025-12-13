@@ -12,21 +12,12 @@ export default function ReelsPage() {
     <>
       <InstagramEmbedScript />
       <div className="container max-w-6xl py-12 md:py-20 animate-pop-in">
-        <header className="text-center mb-8">
+        <header className="text-center mb-12">
           <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight glowing-text">
             His Instagram Reels
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">A glimpse into his artistry in motion.</p>
         </header>
-
-        <div className="text-center mb-12">
-            <Link href={INSTAGRAM_PROFILE} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="group hover:bg-primary/10 hover:text-primary transition-colors duration-300">
-                    Visit Profile to View More
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                </Button>
-            </Link>
-        </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {REELS_DATA.map((reel: { id: number, embedCode?: string, placeholder?: string }) => (
@@ -55,6 +46,15 @@ export default function ReelsPage() {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+            <Link href={INSTAGRAM_PROFILE} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="group hover:bg-primary/10 hover:text-primary transition-colors duration-300">
+                    Visit Profile to View More
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                </Button>
+            </Link>
         </div>
       </div>
     </>
