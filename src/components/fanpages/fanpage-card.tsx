@@ -33,19 +33,6 @@ const FanpageCard: FC<FanpageCardProps> = ({ fanpage }) => {
           </div>
         </div>
         
-        <div className="grid grid-cols-3 gap-1 my-4">
-            {fanpage.reels.slice(0, 3).map((reelUrl, index) => (
-                <div key={index} className="relative aspect-[9/16] overflow-hidden rounded-md bg-muted">
-                    <iframe 
-                        src={reelUrl}
-                        className="w-full h-full border-0"
-                        allowFullScreen
-                        scrolling="no"
-                    />
-                </div>
-            ))}
-        </div>
-
         <div className="mt-auto pt-4">
           <Link href={fanpage.profileLink} target="_blank" rel="noopener noreferrer" className="w-full">
             <Button variant="outline" className="w-full bg-transparent hover:bg-accent hover:text-accent-foreground transition-all duration-300">
