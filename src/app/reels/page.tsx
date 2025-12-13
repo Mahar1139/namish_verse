@@ -1,21 +1,32 @@
 
 'use client'
-import { REELS_DATA } from '@/lib/constants';
+import { REELS_DATA, INSTAGRAM_PROFILE } from '@/lib/constants';
 import { Card, CardContent } from '@/components/ui/card';
-import { Instagram, Video } from 'lucide-react';
+import { Instagram, Video, ExternalLink } from 'lucide-react';
 import InstagramEmbedScript from '@/components/shared/instagram-embed-script';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function ReelsPage() {
   return (
     <>
       <InstagramEmbedScript />
       <div className="container max-w-6xl py-12 md:py-20 animate-pop-in">
-        <header className="text-center mb-12">
+        <header className="text-center mb-8">
           <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight glowing-text">
             His Instagram Reels
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">A glimpse into his artistry in motion.</p>
         </header>
+
+        <div className="text-center mb-12">
+            <Link href={INSTAGRAM_PROFILE} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="group hover:bg-primary/10 hover:text-primary transition-colors duration-300">
+                    Visit Profile to View More
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                </Button>
+            </Link>
+        </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {REELS_DATA.map((reel: { id: number, embedCode?: string, placeholder?: string }) => (
