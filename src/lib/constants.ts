@@ -14,41 +14,6 @@ export const NAV_LINKS = [
 export const INSTAGRAM_PROFILE = 'https://www.instagram.com/iamnamish17';
 export const CREATOR_PROFILE = 'https://www.instagram.com/ashish_mahar._';
 
-const findImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
-
-export const FANPAGES_DATA = [
-    {
-        username: '@namish.fp',
-        avatar: findImage('fan_avatar_1'),
-        reels: [
-            findImage('fan_reel_1_1'),
-            findImage('fan_reel_1_2'),
-            findImage('fan_reel_1_3'),
-        ],
-        profileUrl: 'https://www.instagram.com/namish.fp?igsh=ZGx1b2Y2c2ptMzF4',
-    },
-    {
-        username: '@gohil_namish_fp',
-        avatar: findImage('fan_avatar_2'),
-        reels: [
-            findImage('fan_reel_2_1'),
-            findImage('fan_reel_2_2'),
-            findImage('fan_reel_2_3'),
-        ],
-        profileUrl: 'https://www.instagram.com/gohil_namish_fp',
-    },
-    {
-        username: '@namish.universe',
-        avatar: findImage('fan_avatar_3'),
-        reels: [
-            findImage('fan_reel_3_1'),
-            findImage('fan_reel_3_2'),
-            findImage('fan_reel_3_3'),
-        ],
-        profileUrl: 'https://www.instagram.com/namish.universe',
-    },
-];
-
 export const REELS_DATA = [
   { 
     id: 1, 
@@ -63,5 +28,3 @@ export const REELS_DATA = [
   { id: 5, placeholder: 'Reel 5 Embed - Replace with your embed code' },
   { id: 6, placeholder: 'Reel 6 Embed - Replace with your embed code' },
 ];
-
-    
