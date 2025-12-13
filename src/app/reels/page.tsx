@@ -21,7 +21,7 @@ export default function ReelsPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {REELS_DATA.map((reel: { id: number, embedCode?: string, placeholder?: string }) => (
-            <Card key={reel.id} className="overflow-hidden group border-border/50 hover:border-primary/50 transition-all duration-300 aspect-[9/16]">
+            <Card key={reel.id} className="overflow-hidden group border-border/50 hover:border-primary/50 transition-all duration-300">
               <CardContent className="p-0 h-full">
                 {reel.embedCode ? (
                   <div 
@@ -29,7 +29,7 @@ export default function ReelsPage() {
                     dangerouslySetInnerHTML={{ __html: reel.embedCode }} 
                   />
                 ) : (
-                  <div className="w-full h-full bg-card flex flex-col items-center justify-center text-center p-4">
+                  <div className="w-full h-[500px] bg-card flex flex-col items-center justify-center text-center p-4">
                     <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-4 border-2 border-dashed group-hover:border-primary transition-all duration-300">
                       <Video className="h-8 w-8 text-muted-foreground group-hover:text-primary transition-all duration-300" />
                     </div>
