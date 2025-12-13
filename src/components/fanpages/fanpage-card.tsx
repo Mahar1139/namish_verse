@@ -12,6 +12,7 @@ type Fanpage = {
     profilePic: string;
     reels: string[];
     profileLink: string;
+    bio: string;
 };
 
 interface FanpageCardProps {
@@ -29,7 +30,7 @@ const FanpageCard: FC<FanpageCardProps> = ({ fanpage }) => {
           </Avatar>
           <div>
             <h3 className="font-bold text-lg font-headline">{fanpage.username}</h3>
-            <p className="text-sm text-muted-foreground">Dedicated to supporting Namish</p>
+            <p className="text-sm text-muted-foreground">{fanpage.bio}</p>
           </div>
         </div>
         
