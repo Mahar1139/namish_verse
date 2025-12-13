@@ -1,8 +1,13 @@
+
 'use client';
 
 import fanpagesData from '@/lib/fanpages-data.json';
 import FanpageCard from '@/components/fanpages/fanpage-card';
 import InstagramEmbedScript from '@/components/shared/instagram-embed-script';
+import { Button } from '@/components/ui/button';
+import { INSTAGRAM_PROFILE } from '@/lib/constants';
+import { ExternalLink } from 'lucide-react';
+import Link from 'next/link';
 
 export default function FanpagesPage() {
   return (
@@ -20,6 +25,15 @@ export default function FanpagesPage() {
           {fanpagesData.map((fanpage, index) => (
             <FanpageCard key={index} fanpage={fanpage} />
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Link href={INSTAGRAM_PROFILE} target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="group hover:bg-primary/10 hover:text-primary transition-colors duration-300">
+              View More Fanpages
+              <ExternalLink className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
         </div>
       </div>
     </>
