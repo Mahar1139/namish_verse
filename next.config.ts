@@ -12,6 +12,8 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true, // ✅ THIS LINE FIXES THE ERROR
+    
     remotePatterns: [
       {
         protocol: 'https',
