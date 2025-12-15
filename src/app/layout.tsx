@@ -19,8 +19,18 @@ const fontInter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Namish Verse - A Dancer's Universe",
-  description: 'A special gift website celebrating Namish Gohil, his dance journey, his fanpages, and his impact.',
+  title: "Namish Gohil | Namish Verse – Dancer & Choreographer",
+  description: 'Namish Verse is the official portfolio of Namish Gohil, a professional dancer and choreographer. Explore his reels, fanpages and artistic journey.',
+  keywords: ['Namish', 'Namish Gohil', 'Namish Verse', 'Namish dancer', 'Namish choreographer'],
+  openGraph: {
+    title: 'Namish Verse – Official Portfolio of Namish Gohil',
+    description: 'Explore the world of Namish Gohil, dancer & choreographer.',
+    type: 'website',
+    images: ['/nammu_pics/pf_p.jpg'],
+  },
+  icons: {
+    icon: '/nammu_pics/2.jpg',
+  },
 };
 
 export default function RootLayout({
