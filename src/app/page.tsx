@@ -21,8 +21,12 @@ export default function Home() {
             </div>
           <div>
             <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter glowing-text">
-              Namish Gohil – Dancer & Choreographer
+              Namish Gohil  
             </h1>
+            <p className="mt-4 text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">
+              &bull; Dancer &bull; Choreographer  &bull;Artist
+              {/* Namish Verse is a creative portfolio dedicated to Namish Gohil. */}
+            </p>
             <p className="mt-4 text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">
               Namish Verse is a creative portfolio dedicated to Namish Gohil.
             </p>
